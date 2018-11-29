@@ -1,6 +1,6 @@
 //add modern art code here
 int Y=0;
-PImage webImg;
+
 void setup(){
   size(700,700);
   textAlign(CENTER);
