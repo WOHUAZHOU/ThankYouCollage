@@ -1,15 +1,13 @@
 //add modern art code here
 int Y=0;
 PImage webImg;
-//String url="https://i2.kknews.cc/SIG=3dvtqfp/615900022n988q50qr21.jpg";
 void setup(){
   size(700,700);
   textAlign(CENTER);
-  String url="https://i2.kknews.cc/SIG=3dvtqfp/615900022n988q50qr21.jpg";
-  webImg = loadImage(url,"jpg");
+
 }
 void draw(){
-  image(webImg,-mouseY,Y,700,700);
+  
   fill(2,123,244);
   strokeWeight(3);
   line(680,0,680,700);
