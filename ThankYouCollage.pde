@@ -1,9 +1,9 @@
 //add modern art code here
+PImage webImg;
+int Y=0;
 void setup(){
   size(700,700);
   textAlign(CENTER);
-  PImage webImg;
-  int Y=0;
   webImg = loadImage("https://orig00.deviantart.net/8ef8/f/2015/191/8/2/8211f5f87cd1a0f3e6f8360cb606e4c8-d90rb07.jpg");
 }
 void draw(){
