@@ -52,7 +52,7 @@ void draw(){
   fill(234,234,122);
   text("THANK YOU",320,300);
   text("MY FRIEND",330,420);
-   fill(random(204),random(222),random(111));
+  fill(random(204),random(222),random(111));
   ellipse(0,Y,160,120);
   ellipse(80,Y,160,120);
   ellipse(160,Y,160,120);
