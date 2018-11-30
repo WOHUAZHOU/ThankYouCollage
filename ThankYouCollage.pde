@@ -1,19 +1,13 @@
 //add modern art code here
 int Y=0;
-
-
-void setup(){
-  size(700,700);
-  textAlign(CENTER);
-  
-void draw(){
-  
-  fill(2,123,244);
-  strokeWeight(3);
-  line(680,0,680,700);
-  fill(23,32,23,1000);
-  noStroke();
-  ellipse(680,mouseY,40,40);
+size(700,700);
+textAlign(CENTER);
+fill(2,123,244);
+strokeWeight(3);
+line(680,0,680,700);
+fill(23,32,23,1000);
+noStroke();
+ellipse(680,mouseY,40,40);
   frameRate(10);
   fill(random(204),random(222),random(111));
   ellipse(0,Y,160,120);
