@@ -60,5 +60,4 @@ void draw(){
   ellipse(560,Y,160,120);
   ellipse(640,Y,160,120);
   ellipse(720,Y,160,120);}
-  save("wohua,PDE");
 }
