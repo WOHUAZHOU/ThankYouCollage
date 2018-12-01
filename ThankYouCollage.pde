@@ -9,7 +9,7 @@ void draw(){
   fill(2,123,244);
   strokeWeight(3);
   line(680,0,680,700);
-  fill(23,32,23,1000);
+  fill(23,32,23);
   noStroke();
   ellipse(680,mouseY,40,40);
   frameRate(10);
