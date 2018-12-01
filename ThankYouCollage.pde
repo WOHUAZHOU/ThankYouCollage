@@ -1,5 +1,4 @@
 PImage webImg;
-int Y=0;
 void setup(){
   size(700,700);
   textAlign(CENTER);
@@ -15,14 +14,14 @@ void draw(){
   ellipse(680,mouseY,40,40);
   frameRate(10);
   fill(random(204),random(222),random(111));
-  ellipse(0,Y,160,120);
-  ellipse(80,Y,160,120);
-  ellipse(160,Y,160,120);
-  ellipse(240,Y,160,120);
-  ellipse(320,Y,160,120);
-  ellipse(400,Y,160,120);
-  ellipse(480,Y,160,120);
-  ellipse(560,Y,160,120);
-  ellipse(640,Y,160,120);
-  ellipse(720,Y,160,120);
+  ellipse(0,0,160,120);
+  ellipse(80,0,160,120);
+  ellipse(160,0,160,120);
+  ellipse(240,0,160,120);
+  ellipse(320,0,160,120);
+  ellipse(400,0,160,120);
+  ellipse(480,0,160,120);
+  ellipse(560,0,160,120);
+  ellipse(640,0,160,120);
+  ellipse(720,0,160,120);
   
