@@ -3,7 +3,7 @@ int Y=0;
 void setup(){
   size(700,700);
   textAlign(CENTER);
-  webImg = loadImage("ABCD.jpg");
+  webImg = loadImage("ASD.jpg");
 }
 void draw(){
   image(webImg,-mouseY,Y,700,700);
